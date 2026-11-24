@@ -1,0 +1,20 @@
+MUNDO DOS PODERES — PACOTE PWA
+
+Arquivos:
+- index.html: versão Normal (abre ao iniciar o aplicativo).
+- adm.html: versão ADM.
+- manifest.webmanifest: identificação e configurações de instalação.
+- service-worker.js: cache para funcionamento offline após o primeiro acesso.
+- icons/: ícones do aplicativo.
+
+IMPORTANTE: PWA não instala diretamente abrindo o HTML por file://.
+Publique esta pasta em um endereço HTTPS (ou execute em localhost).
+Depois abra o endereço no navegador e escolha “Instalar aplicativo” ou
+“Adicionar à tela inicial”.
+
+A versão ADM fica no endereço /adm.html dentro do mesmo site.
+O aplicativo inicia pela versão Normal.
+
+Este pacote foi preparado a partir dos dois HTML enviados. O registro do
+Service Worker e os arquivos PWA foram adicionados; ainda é necessário
+testar em navegador real e publicar em HTTPS antes da instalação final.
